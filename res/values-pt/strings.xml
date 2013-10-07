@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Principal!</string>
+    <string name="app_name">LendIt</string>
+    <string name="novo">deu certo</string>
+    <string name="emprestei">Emprestei: </string>
+    <string name="ate">Até o dia: </string>
+    <string name="para">Para o: </string>
+    <string name="salvar">Salvar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="nome">Nome do objeto</string>
+    <string name="fulano">Fulano de tal</string>
+    <string name="dataDevolucao">Data: </string>
+    <string name="digitepesquisa">Digite aqui o que deseja procurar</string>
+    <string name="pesquisar">Pesquisar</string>
+    <string name="devolvido">Marcar como devolvido?</string>
+    <string name="marcarDevolvido">Devolvido</string>
+    <string name="deletar">Deletar</string>    
+</resources>

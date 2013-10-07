@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, Principal!</string>
+    <string name="app_name">LendIt</string>
+    <string name="novo">ok</string>
+    <string name="emprestei">lent: </string>
+    <string name="ate">Until the day: </string>
+    <string name="para">for: </string>
+    <string name="salvar">Save</string>
+    <string name="cancelar">Cancel</string>
+    <string name="nome">Object Name</string>
+    <string name="fulano">Person name</string>
+    <string name="dataDevolucao">Date: </string>
+    <string name="digitepesquisa">Type in your search here</string>
+    <string name="pesquisar">Search</string>
+    <string name="devolvido">Mark returned?</string>
+    <string name="marcarDevolvido">Returned</string>
+    <string name="deletar">Delete</string>
+</resources>

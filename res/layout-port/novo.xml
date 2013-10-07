@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shrinkColumns="1,2,3,4,5" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:gravity="center_vertical"
+	android:background="@color/corcinza">
+
+	<TableRow android:layout_gravity="center_horizontal|center_vertical"
+		android:layout_width="wrap_content" android:id="@+id/TableRow02"
+		android:gravity="center|center_vertical" android:layout_height="match_parent"
+		android:layout_weight="1">
+
+		<TextView android:text="@string/emprestei"
+			android:layout_width="wrap_content" android:id="@+id/TextView02"
+			android:gravity="center|center_vertical" android:layout_gravity="center_vertical"
+			android:textSize="22dip" android:layout_height="match_parent"
+			android:textColor="@color/preto">
+		</TextView>
+
+	</TableRow>
+
+	<TableRow android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/TableRow06" android:gravity="center"
+		android:layout_weight="1">
+
+		<EditText android:layout_width="180dip"
+			android:layout_height="50dip" android:text="@string/nome" android:id="@+id/itemEmprestimo"
+			android:textSize="22dip">
+		</EditText>
+
+	</TableRow>
+	<TableRow android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/TableRow01" android:gravity="center"
+		android:layout_weight="2">
+
+		<TextView android:gravity="center" android:layout_width="wrap_content"
+			android:id="@+id/TextView01" android:text="@string/ate"
+			android:layout_height="match_parent" android:textColor="@color/preto"
+			android:textSize="22dip">
+		</TextView>
+
+	</TableRow>
+	<TableRow android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/TableRow03" android:gravity="center"
+		android:layout_weight="1">
+		<DatePicker android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:id="@+id/datePicker"></DatePicker>
+	</TableRow>
+	<TableRow android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/TableRow04" android:gravity="center"
+		android:layout_weight="1">
+		<TextView android:layout_height="wrap_content"
+			android:gravity="center" android:layout_width="wrap_content"
+			android:id="@+id/TextView03" android:text="@string/para"
+			android:textColor="@color/preto"
+			android:textSize="22dip"></TextView>
+	</TableRow>
+	<TableRow android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/TableRow05" android:gravity="center"
+		android:layout_weight="1">
+		<EditText android:layout_width="180dip"
+			android:layout_height="50dip" android:text="@string/fulano"
+			android:id="@+id/nome" android:textSize="22dip"></EditText>
+	</TableRow>
+	<TableRow android:layout_gravity="center_horizontal"
+		android:layout_height="wrap_content" android:layout_width="wrap_content"
+		android:id="@+id/TableRow10" android:gravity="center"
+		android:layout_weight="1">
+		<LinearLayout android:layout_width="wrap_content"
+			android:gravity="center" android:layout_height="wrap_content"
+			android:id="@+id/linearLayout1">
+			<Button android:text="@string/salvar" android:layout_width="120dip"
+				android:layout_height="50dip" android:id="@+id/btnSalvar"
+				android:textSize="20dip"></Button>
+			<Button android:text="@string/cancelar" android:layout_width="120dip"
+				android:layout_height="50dip" android:id="@+id/btnCancelar"
+				android:textSize="20dip"></Button>
+		</LinearLayout>
+	</TableRow>
+</TableLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style parent="android:Theme" name="topocapa">
+        <item name="android:windowTitleSize">0dip</item>
+         <item name="android:shadowColor">#BB000000</item>
+    </style>
+</resources>

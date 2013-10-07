@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="#FFFFFF"
+  >
+    <EditText android:layout_height="wrap_content" android:layout_width="match_parent" android:text="@string/digitepesquisa" android:id="@+id/txtParametroPesquisa"></EditText>
+    <LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout1" android:layout_width="match_parent">
+        <Button android:text="@string/pesquisar" android:layout_height="wrap_content" android:layout_width="90dip" android:id="@+id/btnpesquisardialog"></Button>
+        <Button android:text="@string/cancelar" android:layout_height="wrap_content" android:layout_width="90dip" android:id="@+id/btncancelardialog"></Button>
+    </LinearLayout>  
+</LinearLayout>

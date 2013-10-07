@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:shrinkColumns="1,2,3,4,5" android:layout_width="match_parent"
+	android:layout_height="match_parent" android:gravity="center_vertical"
+	android:background="@color/corcinza">
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_height="match_parent" android:layout_width="match_parent"
+		android:layout_margin="10dip" android:layout_gravity="center_vertical|center_horizontal">
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:layout_height="fill_parent" android:layout_width="match_parent"
+			android:orientation="vertical" android:layout_marginTop="15dip">
+			<LinearLayout android:layout_height="match_parent"
+				android:id="@+id/linearLayout2" android:layout_width="match_parent">
+				<LinearLayout android:layout_height="fill_parent"
+					android:orientation="vertical" android:id="@+id/painelForm"
+					android:layout_gravity="left" android:gravity="left|right"
+					android:layout_width="210dip">
+
+					<TextView android:text="@string/emprestei"
+						android:textSize="22dip" android:layout_height="wrap_content"
+						android:textColor="@color/preto" android:layout_width="wrap_content"
+						android:gravity="center" android:id="@+id/TextView02"
+						android:layout_marginTop="5dip">
+					</TextView>
+					<EditText android:text="@string/nome" android:id="@+id/itemEmprestimo"
+						android:layout_width="match_parent" android:layout_height="50dip"
+						android:textSize="17dip"></EditText>
+
+					<TextView android:text="@string/para" android:textSize="22dip"
+						android:layout_height="wrap_content" android:gravity="center"
+						android:id="@+id/TextView03"
+						android:textColor="@color/preto" android:layout_width="wrap_content"
+						android:layout_marginTop="5dip">
+					</TextView>
+					<EditText android:text="@string/fulano"
+						android:layout_width="match_parent" android:id="@+id/nome"
+						android:layout_height="50dip" android:textSize="17dip"></EditText>
+
+				</LinearLayout>
+
+				<LinearLayout android:layout_height="fill_parent"
+					android:orientation="vertical" android:layout_width="wrap_content"
+					android:id="@+id/painelDate" android:layout_gravity="center_vertical|left"
+					android:gravity="center_vertical|left" android:layout_marginLeft="15dip">
+					<TextView android:text="@string/ate" android:textSize="22dip"
+						android:layout_height="wrap_content" android:layout_width="wrap_content"
+						android:gravity="center" android:id="@+id/TextView01" android:textColor="@color/preto"
+						android:layout_marginLeft="2dip"></TextView>
+
+					<DatePicker android:layout_height="wrap_content"
+						android:id="@+id/datePicker" android:layout_width="wrap_content">
+					</DatePicker>
+
+				</LinearLayout>
+			</LinearLayout>
+
+			<LinearLayout android:layout_height="match_parent"
+				android:id="@+id/linearLayout3" android:layout_width="match_parent"
+				android:layout_marginTop="15dip">
+
+				<Button android:textSize="20dip" android:text="@string/salvar"
+					android:layout_height="45dip" android:id="@+id/btnSalvar"
+					android:layout_width="120dip"></Button>
+				<Button android:textSize="20dip" android:text="@string/cancelar"
+					android:layout_height="45dip" android:id="@+id/btnCancelar"
+					android:layout_width="120dip"></Button>
+
+			</LinearLayout>
+
+		</LinearLayout>
+	</ScrollView>
+</TableLayout>
